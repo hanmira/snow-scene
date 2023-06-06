@@ -5,7 +5,7 @@ function House() {
   return (
     <>
       <OrbitControls
-        autoRotate={true}
+        autoRotate={false}
         minAzimuthAngle={Infinity}
         maxAzimuthAngle={Infinity}
         minPolarAngle={0}
@@ -20,7 +20,6 @@ function House() {
         position-x={1}
         scale={0.85}
       />
-      {/* <Environment preset={"dawn"} /> */}
     </>
   );
 }

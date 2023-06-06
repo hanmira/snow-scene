@@ -12,7 +12,6 @@ function Car() {
         position-x={-1.5}
         scale={0.5}
       />
-      <Environment preset={"night"} />
     </>
   );
 }

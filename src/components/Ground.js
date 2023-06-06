@@ -7,7 +7,7 @@ function Ground() {
         minAzimuthAngle={Infinity}
         maxAzimuthAngle={Infinity}
         minPolarAngle={0}
-        maxPolarAngle={Math.PI - Math.PI / 2}
+        maxPolarAngle={0.4 * Math.PI}
         maxDistance={20}
         maxZoom={10}
       />
